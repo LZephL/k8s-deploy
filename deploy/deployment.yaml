@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: dkerlzeph/k8s-cicd:202607280956
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: dkerlzeph/k8s-cicd:202607281114
+          ports:
+            - containerPort: 80
